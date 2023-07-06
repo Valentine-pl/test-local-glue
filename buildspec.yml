@@ -5,9 +5,6 @@ phases:
   install:
     runtime-versions:
       python: 3.8
-    commands:
-      - echo Installing dependencies...
-      - pip install -r requirements.txt  # If you have a requirements.txt file in your repository.
   build:
     commands:
       - echo Running tests...  # Replace this with actual test commands if you have any.
